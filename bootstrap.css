@@ -35,6 +35,15 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.parallax {
+  background-image: url("images/space_bg.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 *,
 *::before,
 *::after {
