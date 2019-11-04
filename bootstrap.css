@@ -42,7 +42,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: translateZ(-1px) scale(2);
+  transform: translateZ(1px) scale(2);
 }
 *,
 *::before,
