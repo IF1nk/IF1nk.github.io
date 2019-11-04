@@ -39,7 +39,7 @@
   background-image: url("images/space_bg.jpg");
   height: 150px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: relative;
   background-repeat: no-repeat;
   background-size: auto;
   transform: translateZ(-1px) scale(2); 
