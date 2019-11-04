@@ -58,6 +58,7 @@
   background-repeat: no-repeat;
   background-size: auto;
   transform: translateZ(-1px) scale(2); 
+  position:relative;
 }
 *,
 *::before,
