@@ -56,3 +56,27 @@ font-family: Roboto;
   background: url("images/space_bg.jpg");
   background-color: rgb(250,228, 216);
 }
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 2%;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: #f2f2f200;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
