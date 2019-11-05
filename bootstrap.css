@@ -35,6 +35,25 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.menu {
+  position: fixed;
+  top:0;
+}
+.menu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.menu a:hover {
+  background: #ddd;
+  color: black;
+}
+
 .ContentContainer {
   position: relative;
   display: block;
