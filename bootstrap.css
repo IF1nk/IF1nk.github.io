@@ -36,12 +36,12 @@
 }
 
 .ContentContainer {
-  position:relative;
-  z-index: 1;
-  display: block; x
-
-
+  position: relative;
+  display: block;
+  background-color: white;
+    z-index: 1;
 }
+
 .MainContainer {
   perspective: 1px;
   transform-style: preserve-3d;
@@ -50,19 +50,19 @@
   overflow-y: scroll;
 }
 
-.parallax {
-  background-image: url("images/space_bg.jpg");
-  height: 10vh;
-  background-attachment: fixed;
-  background-position: relative;
-  background-repeat: no-repeat;
-  background-size: auto;
-  transform: translateZ(-1px) scale(2); 
-  position:relative;
-  justify-content: center;
-  align-items: center;
-  z-index: -10;
-}
+  .ParallaxContainer {
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    z-index: -10;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(-1px) scale(2);
+    background: url("images/space_bg.jpg");
+    background-color: rgb(250,228, 216);
+  }
+
 *,
 *::before,
 *::after {
