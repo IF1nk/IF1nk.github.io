@@ -102,11 +102,11 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: -15px;
+ /* letter-spacing: -15px;*/
   font-family: Open Sans;
   color: white;
   text-align: center;
-  font-size: 200px;
+ /* font-size: 200px;*/
   font-weight: 800;
   line-height: 200px;
 }
