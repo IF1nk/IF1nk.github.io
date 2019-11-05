@@ -38,6 +38,8 @@
 .menu {
   position: fixed;
   top:0;
+  background-color: #914bca;
+  height:5%;
 }
 .menu a {
   float: left;
