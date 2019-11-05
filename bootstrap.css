@@ -39,7 +39,8 @@
   position: fixed;
   top:0;
   background-color: #914bca;
-  height:5%;
+  height:7.5%;
+  width:100%;
 }
 .menu a {
   float: left;
@@ -67,6 +68,7 @@
   perspective: 1px;
   transform-style: preserve-3d;
   height: 100vh;
+  width:100%;
   overflow-x: hidden;
   overflow-y: scroll;
 }
