@@ -3,6 +3,9 @@ font-family: Roboto;
 
 }
 
+body {
+    overflow:hidden;
+}
 
 .menu {
   position;
