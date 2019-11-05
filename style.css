@@ -5,7 +5,8 @@ margin:0px;
 
 body {
     overflow:hidden;
-    margin:0px;
+    margin-top:0px;
+    margin-left:0px;
 }
 
 .menu {
@@ -18,7 +19,7 @@ body {
 .menu a {
   float:center;
   display: block;
-  color: #f2f2f2;
+  color: #ce0a0a;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
