@@ -37,8 +37,8 @@
 
 .ContentContainer {
   position:relative;
-
-
+  z-index: 1;
+  display: block;
 
 
 }
@@ -59,6 +59,9 @@
   background-size: auto;
   transform: translateZ(-1px) scale(2); 
   position:relative;
+  justify-content: center;
+  align-items: center;
+  z-index: -10;
 }
 *,
 *::before,
