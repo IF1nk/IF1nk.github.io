@@ -50,18 +50,18 @@
   overflow-y: scroll;
 }
 
-  .ParallaxContainer {
-    display: flex;
-    flex: 1 0 auto;
-    position: relative;
-    z-index: -10;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    transform: translateZ(-1px) scale(2);
-    background: url("images/space_bg.jpg");
-    background-color: rgb(250,228, 216);
-  }
+.ParallaxContainer {
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  z-index: -10;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(-1px) scale(2);
+  background: url("images/space_bg.jpg");
+  background-color: rgb(250,228, 216);
+}
 
 *,
 *::before,
