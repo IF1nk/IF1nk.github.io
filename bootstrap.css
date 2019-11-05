@@ -52,7 +52,7 @@
 
 .parallax {
   background-image: url("images/space_bg.jpg");
-  height: 100vh;
+  height: 10vh;
   background-attachment: fixed;
   background-position: relative;
   background-repeat: no-repeat;
