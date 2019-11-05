@@ -35,56 +35,7 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.menu {
-  position: fixed;
-  top:0;
-  background-color: #914bca;
-  height:7.5%;
-  width:100%;
-}
-.menu a {
-  float:center;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
-/* Change background on mouse-over */
-.menu a:hover {
-  background: #ddd;
-  color: black;
-}
-
-.ContentContainer {
-  position: relative;
-  display: block;
-  background-color: white;
-    z-index: 1;
-}
-
-.MainContainer {
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100vh;
-  width:100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-.ParallaxContainer {
-  display: flex;
-  flex: 1 0 auto;
-  position: relative;
-  z-index: -10;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  transform: translateZ(-1px) scale(2);
-  background: url("images/space_bg.jpg");
-  background-color: rgb(250,228, 216);
-}
 
 *,
 *::before,
