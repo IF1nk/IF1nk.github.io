@@ -38,7 +38,7 @@
 .ContentContainer {
   position:relative;
   z-index: 1;
-  display: block;
+  display: block; x
 
 
 }
@@ -52,7 +52,7 @@
 
 .parallax {
   background-image: url("images/space_bg.jpg");
-  height: 150px;
+  height: 100vh;
   background-attachment: fixed;
   background-position: relative;
   background-repeat: no-repeat;
