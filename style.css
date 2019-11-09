@@ -48,6 +48,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   font-family: Roboto;
+  margin:0px;
 }
 
 .ParallaxContainer {
