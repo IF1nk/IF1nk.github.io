@@ -1,6 +1,7 @@
 html {
 font-family: Roboto;
 margin-right:0px
+
 }
 
 body {
@@ -38,7 +39,7 @@ body {
   background-color: white;
   z-index: 1;
   font-family: Roboto;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .MainContainer {
@@ -46,14 +47,13 @@ body {
   transform-style: preserve-3d;
   height: 100vh;
   width:100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
   font-family: Roboto;
   margin:0px;
 }
 
 .ParallaxContainer {
-  overflow-x: hidden;
+  overflow: hidden;
   display: flex;
   flex: 1 0 auto;
   position: relative;
