@@ -47,7 +47,7 @@ body {
   height: 100vh;
   width:100%;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: hidden;
   font-family: Roboto;
   margin:0px;
 }
